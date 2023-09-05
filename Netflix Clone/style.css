@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+}
+
+.intro {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 100px;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.intro>button {
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+button:hover {
+    background-color: rgb(209, 6, 16);
+}
+
+
+.heading {
+    background: transparent;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+
+/* css for footer area */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 164, 164);
+    overflow-x: hidden;
+}
+
+footer>p {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 164, 164);
+    padding: 50px 0 0 125px;
+    display: block;
+    width: 100vw;
+}
+
+.container-footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw; */
+}
+
+.footer-content {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    padding-bottom: 25px;
+    padding-left: 125px;
+    /* width: 100vw; */
+}
+
+.footer-content>a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 164, 164);
+    /* width: 100vw; */
+}
+
+.footer-content>p {
+    background-color: rgb(0, 0, 0);
+    color: rgb(164, 164, 164);
+    display: block;
+    width: 100vw;
+}
+
+
+.inner-container {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+}
+
+.inner-container>.text {
+    background-color: black;
+    padding: 45px;
+    overflow-y: hidden;
+}
+
+.inner-container>.text>.tag1 {
+    background-color: black;
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.inner-container>.text>.tag2 {
+    background-color: black;
+    font-size: larger;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+.inner-container>.imgs>img {
+    background-color: black;
+    height: 400px;
+}
+
+
+.faqs {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.faqs>h1 {
+    background-color: black;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.faqs>details {
+    background-color: rgb(45, 45, 45);
+    padding: 10px;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.faqs>details>summary {
+    background-color: rgb(45, 45, 45);
+    transition-duration: 0.3s;
+    font-size: xx-large;
+}
+
+.faqs>details>p {
+    background-color: rgb(45, 45, 45);
+    text-align: left;
+    font-size: larger;
+}
